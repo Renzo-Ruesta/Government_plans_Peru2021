@@ -17,7 +17,7 @@ library(ggraph) # GRAFICAR REDES DE PALABRAS CAPA POR CAPA
 library(widyr) # AMPLIAR, PROCESAR Y VOLVER A ORDENAR LOS DATOS
 library(tm) # MINERIA DE TEXTO
 library(topicmodels) # CLASIFICACION NO SUPERVISADA DE TEXTO - LDA
-library(scales)
+library(scales) # 
 
 # CARGA DE ARCHIVOS PARA ANALISIS
 
