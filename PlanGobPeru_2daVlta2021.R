@@ -161,7 +161,7 @@ ggplot(frequency, aes(x = proporcion, y = `Fuerza Popular`,
          Elaborado por: @renzo_ruesta https://github.com/Renzo-Ruesta") +
   theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
 
-# CORRLEACION DE PALABRAS Cor = 0.4554293, p-value < 2.2e-16
+# CORRELACION DE PALABRAS Cor = 0.4554293, p-value < 2.2e-16
 cor.test(data = frequency[frequency$autor == "Peru Libre",],
          ~ proporcion + `Fuerza Popular`)
 
